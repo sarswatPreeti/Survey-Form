@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+        <form action="/action_page.php" method="get">
+
+            <label class="label_padding" for="fname">First Name</label><br>
+            <input class="width" type="text" id="fname" name="fname" placeholder="Enter Your First Name"><br><br>
+
+            <label class="label_padding" for="lname">Last Name</label><br>
+            <input class="width" type="text" id="lname" name="lname" placeholder="Enter Your Last Name"><br><br>
+
+            <label class="label_padding" for="Email">Email</label><br>
+            <input class="width" type="text" id="Email" name="Email" placeholder="Enter Your Email "><br><br>
+
+            <label class="label_padding" for="age">Age</label><br>
+            <input class="width" type="text" id="age" name="age" placeholder="Enter Your Age"><br><br>
+
+            <label class="label_padding" for="options">Which option best describes you?</label><br>
+            <select class="width" name="option" id="options">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">professional</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label class="label_padding" for="recommed">Would you recommed me in your office for web development Internship?</label><br>
+            <input type="radio" name="yes" id="recommed-yes" value="YES">
+            <label for="recommed-yes">Yes</label><br>
+            <input type="radio" name="yes" id="recommed-no" value="No">
+            <label for="recommed-no">No</label><br>
+            <input type="radio" name="yes" id="recommed-patanahi" value="May-be">
+            <label for="recommed-patanahi">May be</label><br><br>
+
+            <label class="label_padding" for="lan-you-know">Languages and Frameworks Known</label><br>
+            <input type="checkbox" id="lan1" name="lan1" value="C">
+            <label for="lan1">C</label><br>
+            <input type="checkbox" id="lan2" name="lan2" value="C++">
+            <label for="lan2">C++</label><br>
+            <input type="checkbox" id="lan3" name="lan3" value="python">
+            <label for="lan3">Python</label><br>
+            <input type="checkbox" id="lan4" name="lan4" value="DSA">
+            <label for="lan4">DSA</label><br>
+            <input type="checkbox" id="lan5" name="lan5" value="HTML">
+            <label for="lan5">HTML</label><br>
+            <input type="checkbox" id="lan6" name="lan6" value="CSS">
+            <label for="lan6">CSS</label><br>
+            <input type="checkbox" id="lan7" name="lan7" value="java script">
+            <label for="lan7">JavaScript</label><br>
+            <input type="checkbox" id="lan8" name="lan8" value="java">
+            <label for="lan8">Java</label><br>
+            <input type="checkbox" id="lan9" name="lan9" value="React">
+            <label for="lan9">React</label><br>
+            <input type="checkbox" id="lan10" name="lan10" value="django">
+            <label for="lan10">Django</label><br><br>
+
+            <label class="label_padding" for="sugg">Any Comments or Suggestion</label><br>
+            <input class="width" type="text" id="sugg" name="sugg" placeholder="Write Your Suggestion Here"><br><br>
+            
+            <input class="width" id="submit" type="submit" value="Submit">
+
+
+        </form>
+
+    </div>
+</body>
+</html>
